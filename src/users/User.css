@@ -1,0 +1,69 @@
+/* UserContainer Styles */
+
+.UserContainer {
+  /* border: 1px solid blue; */
+}
+
+.UserContainer > * {
+  margin-top: 20px;
+}
+
+.loadingText {
+  margin: auto;
+  text-align: center;
+  background-color: #e1e8ed;
+  color: #292f33;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 20px;
+  width: 60%;
+  margin-top: 20px;
+  font-size: 0.75rem;
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+.buttonInstance {
+  color: white;
+  background-color: #66757f;
+  padding: 12px 25px;
+  border-radius: 3px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.buttonInstance:hover {
+  background-color: #ccd6dd;
+  padding: 11px 24px;
+  color: #292f33;
+  border: 1px solid #ccd6dd;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.buttonInstanceDisabled {
+  background-color: #ccd6dd;
+  padding: 11px 24px;
+  color: #292f33;
+  border: 1px solid #ccd6dd;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* UserComponent Styles */
+
+.UserComponent > * {
+  margin-top: 10px;
+}
+
+.userImage {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}

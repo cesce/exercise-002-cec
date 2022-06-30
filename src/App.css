@@ -1,0 +1,46 @@
+.app-container {
+  border: 1px solid #66757f;
+  padding: 20px;
+  border-radius: 2px;
+}
+
+.app-title {
+  border: 1px dashed grey;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e1e8ed;
+  text-align: center;
+}
+
+@media only screen and (min-width: 2000px) {
+  .app-container {
+    margin: auto;
+    margin-top: 30px;
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 2000px) {
+  .app-container {
+    margin: auto;
+    margin-top: 30px;
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+  .app-container {
+    margin: auto;
+    margin-top: 30px;
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .app-container {
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+  }
+}
